@@ -1,11 +1,11 @@
-import { Outlet } from "react-router-dom";
-import Navbar from "../components/navbar/Navbar";
-import Footer from "../components/footer/Footer";
-import Menu from "../components/menu/Menu";
+import { Outlet } from 'react-router-dom';
+import Navbar from '../components/navbar/Navbar';
+import Footer from '../components/footer/Footer';
+import Menu from '../components/menu/Menu';
 
 const Layout = () => {
   return (
-    <div className="main">
+    <>
       <Navbar />
       <div className="container">
         <div className="menuContainer">
@@ -16,7 +16,7 @@ const Layout = () => {
         </div>
       </div>
       <Footer />
-    </div>
+    </>
   );
 };
 

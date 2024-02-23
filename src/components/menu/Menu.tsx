@@ -1,6 +1,7 @@
-import { Link } from "react-router-dom";
-import "./menu.scss";
-import { menu } from "../../data";
+import './menu.scss';
+
+import { Link } from 'react-router-dom';
+import { menu } from '../../data';
 
 const Menu = () => {
   return (
@@ -10,7 +11,7 @@ const Menu = () => {
           <span className="title">{item.title}</span>
 
           {item.listItems.map((listItem) => (
-            <Link key={listItem.id} to="/" className="listItem">
+            <Link key={listItem.id} to={listItem.url} className="listItem">
               <img src={listItem.icon} alt="" />
               <span className="listItemTitle">{listItem.title}</span>
             </Link>

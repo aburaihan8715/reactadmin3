@@ -1,12 +1,3 @@
-import "./single.scss";
-
-const Single = () => {
-  return <div>Single</div>;
-};
-
-export default Single;
-
-/*
 import {
   Legend,
   Line,
@@ -15,8 +6,8 @@ import {
   Tooltip,
   XAxis,
   YAxis,
-} from "recharts";
-import "./single.scss";
+} from 'recharts';
+import './single.scss';
 
 type Props = {
   id: number;
@@ -100,4 +91,3 @@ const Single = (props: Props) => {
 };
 
 export default Single;
-*/
