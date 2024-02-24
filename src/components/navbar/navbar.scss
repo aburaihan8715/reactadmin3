@@ -1,59 +1,4 @@
-.navbar {
-  width: 100%;
-  padding: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border: 5px solid red;
-
-  .logo {
-    display: flex;
-    align-items: center;
-    font-weight: bold;
-    gap: 10px;
-  }
-
-  .icons {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-
-    .notification {
-      position: relative;
-
-      span {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: red;
-        color: white;
-        width: 16px;
-        height: 16px;
-        border-radius: 50%;
-        position: absolute;
-        top: -10px;
-        right: -10px;
-        font-size: 12px;
-      }
-    }
-
-    .user {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-
-      img {
-        width: 26px;
-        height: 26px;
-        border-radius: 50%;
-        object-fit: cover;
-      }
-    }
-  }
-}
-
-/* 
-@import "../../styles/responsive.scss";
+@import '../../styles/responsive.scss';
 
 .navbar {
   width: 100%;
@@ -68,13 +13,14 @@
     font-weight: bold;
     gap: 10px;
   }
+
   .icons {
     display: flex;
     align-items: center;
     gap: 20px;
 
-    .icon{
-      @include sm{
+    .icon {
+      @include sm {
         display: none;
       }
     }
@@ -83,6 +29,9 @@
       position: relative;
 
       span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         background-color: red;
         color: white;
         width: 16px;
@@ -91,9 +40,6 @@
         position: absolute;
         top: -10px;
         right: -10px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
         font-size: 12px;
       }
     }
@@ -112,4 +58,3 @@
     }
   }
 }
-*/

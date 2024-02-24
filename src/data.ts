@@ -617,23 +617,23 @@ export const singleUser = {
       time: '3 day ago',
     },
     {
-      text: 'John Doe added 3 items into their wishlist',
+      text: 'Jane Doe added 3 items into their wishlist',
       time: '1 week ago',
     },
     {
-      text: 'John Doe purchased Sony Bravia KD-32w800',
+      text: 'Joy Doe purchased Sony Bravia KD-32w800',
       time: '2 weeks ago',
     },
     {
-      text: 'John Doe reviewed a product',
+      text: 'Jack Doe comment a product',
+      time: '3 month ago',
+    },
+    {
+      text: 'Jacky Doe added 1 items into their wishlist',
       time: '1 month ago',
     },
     {
-      text: 'John Doe added 1 items into their wishlist',
-      time: '1 month ago',
-    },
-    {
-      text: 'John Doe reviewed a product',
+      text: 'Jam Doe reviewed a product',
       time: '2 months ago',
     },
   ],
@@ -712,7 +712,7 @@ export const singleProduct = {
     },
     {
       text: 'Michael Doe added Playstation 5 Digital Edition into their wishlist',
-      time: '1 month ago',
+      time: '3 month ago',
     },
     {
       text: 'Helen Doe reviewed the product',

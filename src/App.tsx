@@ -8,6 +8,10 @@ import Products from './pages/products/Products';
 import Login from './pages/login/Login';
 import User from './pages/user/User';
 import Product from './pages/product/Product';
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+
+// Create a client
+const queryClient = new QueryClient();
 
 const router = createBrowserRouter([
   {
@@ -48,7 +52,11 @@ const router = createBrowserRouter([
 ]);
 
 const App = () => {
-  return <RouterProvider router={router} />;
+  return (
+    <QueryClientProvider client={queryClient}>
+      <RouterProvider router={router} />
+    </QueryClientProvider>
+  );
 };
 
 export default App;

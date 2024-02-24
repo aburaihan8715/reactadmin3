@@ -76,7 +76,7 @@ const Single = (props: Props) => {
         {props.activities && (
           <ul>
             {props.activities.map((activity) => (
-              <li key={activity.text}>
+              <li key={Date.now().toString()}>
                 <div>
                   <p>{activity.text}</p>
                   <time>{activity.time}</time>
